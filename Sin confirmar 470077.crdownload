@@ -1,0 +1,18 @@
+#def nombre():
+       #x= 0
+       #while x<10:
+           #x=x+1
+           #print(input("ingrese nombre"))
+     
+#nombre()
+"""def listas():
+    libreria=["lapices","cuadernos","temperas","hojas iris","crayones"]
+    for e in libreria:
+        print(e)
+listas()"""
+def diccionario():
+        libreria={"lapices":2,"cuadernos":5,"temperas":7,"hojas iris":1,"crayones":12}
+        for x,y in libreria.items():
+           print(x+""+str(y))
+diccionario()
+       
